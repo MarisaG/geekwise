@@ -1,0 +1,41 @@
+body {
+
+}
+main{
+  background-color: black;
+}
+main::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+header{
+background-color: rgb(152, 100, 221);
+width 100%;
+}
+header ul li {
+display: inline-block;
+padding:10px;
+text-align: center;
+margin: 0; 
+
+}
+div{
+width:100px;
+height:100px;
+float: left;
+}
+div:nth-of-type(1){
+  background-color:red;}
+
+  div:nth-of-type(2){
+    background-color:rgb(153, 9, 115);}
+
+    div:nth-of-type(3){
+      background-color: rgb(207, 97, 46);}
+
+      div:nth-of-type(4){
+        background-color: rgb(50, 204, 78);}
+
+        div:nth-of-type(5){
+          background-color: rgb(231, 208, 32);}
