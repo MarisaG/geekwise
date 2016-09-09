@@ -1,0 +1,26 @@
+body{
+  background-image:url(../img/background.jpg);
+}
+
+  header{
+
+   }
+
+
+  header nav h1{
+    text-decoration: none;
+display: block;
+color: white;
+
+  }
+  li{
+    float:right;
+    display: inline-block;
+    padding:20px;
+    font-size:45px;
+    }
+li a{
+  text-decoration: none;
+  color:rgb(144, 144, 150);
+padding-top: 20px;
+}

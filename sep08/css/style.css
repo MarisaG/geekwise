@@ -31,20 +31,46 @@ top:75%;
 font-family:sans-serif;
 }*/
 body{
-  background-image: url(../img/background.jpg);
-  background-size:cover;
+margin:0;
+font-family: arial,helvetica,sans-serif;
 }
 header{
-
-}
-
-header li{
-  display: inline-block;
-  float:right;
-  padding:40px;
-}
-header li a{
-font-size:450%;
-text-decoration: none;
+height:500px;
+background-image: url("../img/background.jpg");
+background-position: center;
+background-size:cover;
 color:white;
+}
+h1, ul{
+  margin:0;
+  display: inline-block;
+}
+h1{
+  font-size:50px;
+  letter-spacing: -4px;
+
+}
+h1 a, li a{
+  text-decoration: none;
+  color:white;
+}
+h1 span {
+color: hsl(194,84%,66%)
+}
+ul{
+  float:right;
+}
+header ul li {
+  display: inline-block;
+  line-height: 50px;
+padding:0 20px;
+margin-left: 10px;
+}
+ul li:hover, .active{
+  background-color: hsl(194,84%,66%);
+  border-top-right-radius: 20px 50px;
+  border-bottom-right-radius: 20px 50px;
+  border-top-left-radius: 20px 50px;
+  border-bottom-left-radius: 20px 50px;
+
 }
