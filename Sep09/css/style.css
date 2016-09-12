@@ -3,8 +3,10 @@ body{
 }
 
   header{
-
+background-repeat: no-repeat;
+height:500px;
    }
+
 
 
   header nav h1{
@@ -13,14 +15,52 @@ display: block;
 color: white;
 
   }
+  header ul{
+    position: absolute;
+    bottom:90%;
+    left:45%;
+  }
+  h1 span{
+    color: white;
+    font-size: 150px;
+    position: absolute;
+    bottom:90%;
+    left:10%;
+  }
   li{
     float:right;
     display: inline-block;
     padding:20px;
-    font-size:45px;
+    font-size:46px;
     }
+a:hover{
+  color:white;
+}
 li a{
   text-decoration: none;
   color:rgb(144, 144, 150);
 padding-top: 20px;
 }
+div.web h1{
+  color:white;
+  position: absolute;
+  bottom:65%;
+  left:25%;
+  font-size: 100px;
+}
+div.web p {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  bottom:45%;
+  left:25%;
+  right:20%;
+}
+
+  div.web img{
+position: absolute;
+bottom:10%;
+left:10%;
+height:460px;
+weight:100%;
+  }
