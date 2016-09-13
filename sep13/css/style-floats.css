@@ -1,0 +1,35 @@
+body{
+  margin: 0;
+}
+
+header, article, aside{
+  content: "";
+  display: block;
+  clear:both;
+}
+header{
+  width: 100%;
+  height:130px;
+  background-color: hsl(253, 48%, 65%);
+}
+ article{
+background-color: hsl(190, 75%, 69%);
+height:500px;
+width:75%;
+}
+aside,article{
+  float:left;
+
+}
+/*div{
+  float: right;
+  background-color: rgb(67, 193, 161);
+  width:25%;
+height: 500px;
+}*/
+
+aside{
+  background-color: rgb(219, 103, 135);
+  width:25%;
+  height:500px;
+}
