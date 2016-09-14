@@ -1,0 +1,16 @@
+section{
+  height:500px;
+  padding-right: 10%;
+  padding-left: 10%
+}
+.fc {
+  display:flex;
+  flex-wrap:wrap;
+}
+.fc div{
+  flex:50%;
+}
+.fc img{
+  float:left;
+  border-radius: 100%
+}
