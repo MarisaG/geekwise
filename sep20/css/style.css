@@ -65,7 +65,10 @@ div{
 }
 
 #features div i {
-background-color: hsl(355, 88%, 86%);
+border:2px solid black;
+border-radius: 100%;
 
-
+}
+div i{
+  font-size: 8px
 }

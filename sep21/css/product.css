@@ -1,0 +1,32 @@
+body{
+
+}
+
+button{
+  background-color:hsl(277, 30%, 47%);
+  font-size: 20px;
+  border-radius: 4px;
+  color:white;
+  padding:5px 10px
+
+}
+div{
+  margin:20% 20% 20% 20%;
+
+}
+
+.watch{
+  display: inline-block;
+width:50%;
+float:left;
+margin:-20px;
+
+}
+
+.words{
+  display: inline-block;
+color:hsl(273, 55%, 72%);
+width: 50%;
+float: right;
+margin:-15px
+}
