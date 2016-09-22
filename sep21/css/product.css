@@ -1,5 +1,16 @@
-body{
+.all{
+  display: flex;
+align-items: center;
+margin:10% 15%;
+color:hsl(269, 79%, 73%)
+}
 
+.watch{
+width:50%
+}
+
+.words{
+width:50%
 }
 
 button{
@@ -8,25 +19,3 @@ button{
   border-radius: 4px;
   color:white;
   padding:5px 10px
-
-}
-div{
-  margin:20% 20% 20% 20%;
-
-}
-
-.watch{
-  display: inline-block;
-width:50%;
-float:left;
-margin:-20px;
-
-}
-
-.words{
-  display: inline-block;
-color:hsl(273, 55%, 72%);
-width: 50%;
-float: right;
-margin:-15px
-}
