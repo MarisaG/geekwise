@@ -1,0 +1,18 @@
+body{
+margin:10% 10%
+}
+
+div h1{
+display: flex;
+align-items: center;
+flex-direction: column;
+color: hsl(266, 49%, 64%);
+}
+
+div p{
+display: flex;
+margin: 5% 20%;
+color:hsl(266, 61%, 68%);
+width:50%;
+flex-direction: 
+}
