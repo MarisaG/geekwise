@@ -13,6 +13,12 @@ div p{
 display: flex;
 margin: 5% 20%;
 color:hsl(266, 61%, 68%);
-width:50%;
-flex-direction: 
+
+}
+
+div img{
+  float:left;
+  padding:2%;
+  margin-left: 10%;
+  margin-top: -4%
 }

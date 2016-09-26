@@ -1,0 +1,27 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css";
+body{
+
+}
+
+header{
+  background-image: url(../img/dark_tint.png),url(../img/bokeh_car_lights_bg.jpg);
+  height:500px;
+  width:100%;
+  background-position:center;
+  color:white;
+
+}
+
+header ul li{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction:row;
+}
+
+header div{
+}
+
+
+section{
+  background-color: hsl(350, 57%, 22%)
+}
