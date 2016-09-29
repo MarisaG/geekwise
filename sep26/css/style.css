@@ -1,27 +1,235 @@
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css";
 body{
-
+margin:0;
+background-color:hsla(0, 7%, 87%, 0.91);
 }
 
 header{
   background-image: url(../img/dark_tint.png),url(../img/bokeh_car_lights_bg.jpg);
-  height:500px;
-  width:100%;
-  background-position:center;
+  background-position: center;
   color:white;
+  width:100%;
+  height:450px;
 
 }
 
-header ul li{
+nav{
   display: flex;
-  justify-content: flex-end;
-  flex-direction:row;
+  padding:10px 20px;
+justify-content: space-between;
+
+}
+
+nav *{
+  margin:0;
+  padding:0
+}
+
+nav ul{
+  display: inline-flex;
+  align-items:center;
+  list-style: none;
+  font-size: 16px
+}
+
+nav ul li{
+  padding: 10px;
+  margin:0 5px;
+  font size:75%;
 }
 
 header div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-
 section{
-  background-color: hsl(350, 57%, 22%)
+display: flex;
+margin:10% 10%;
+}
+
+section div{
+  display: flex;
+  flex-direction: column;
+justify-content:center;
+padding:80px 30px;
+background-color: white;
+box-sizing: border-box;
+margin-left: 40px;
+}
+div i{
+  display: flex;
+  align-items: center;
+  margin-left: 65px
+}
+.gg{
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.gg button{
+  color: white;
+  background-color: hsl(192, 60%, 52%);
+  border-radius: 100px;
+  border:none;
+  padding:15px 32px;
+  text-align: center;
+  font-size: 20px;
+}
+.ll{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+  background-color: white;
+  height:200px;
+}
+.help{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+  background-color: white;
+  height:200px;
+}
+.fa-cloud{
+  background:hsl(208, 57%, 54%);
+  width:70px;
+  height:70px;
+  border-radius: 100%;
+  text-align:center;
+  line-height:70px;
+  vertical-align: middle;
+  padding:20px;
+  color:white;
+  font-size:35px;
+}
+.fa-desktop{
+  background:hsl(95, 60%, 53%);
+  width:70px;
+  height:70px;
+  border-radius: 100%;
+  text-align:center;
+  line-height:70px;
+  vertical-align: middle;
+  padding:20px;
+  color:white;
+  font-size:35px;
+}
+.fa-rocket{
+  background:hsl(0, 46%, 51%);
+  width:70px;
+  height:70px;
+  border-radius: 100%;
+  text-align:center;
+  line-height:70px;
+  vertical-align: middle;
+  padding:20px;
+  color:white;
+  font-size:35px;
+}
+.people{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0% 10%;
+  background-color: white;
+  padding-top: 110px;
+  padding-bottom:0
+}
+
+.people img{
+  border-radius: 100px
+}
+.idk{
+  background-color: white
+}
+.button{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin:10% 15%;
+  font-size:20px;
+  text-align:center;
+  padding-bottom: 60px;
+
+}
+.button button{
+  color: white;
+  background-color: hsl(192, 60%, 52%);
+  border-radius: 100px;
+  border:none;
+  padding:15px 32px;
+  text-align: center;
+  font-size: 20px;
+}
+.info{
+background-color:hsl(192, 60%, 52%);
+display: flex;
+flex-direction:column;
+margin:0
+
+}
+.info span{
+  color: white;
+  font-size:25px;
+  text-align: center;
+  margin:40px 5px
+
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin:0;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  textarea{
+    width: 100%;
+    padding: 60px 200px;
+    margin: 20px 2px;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5%
+  }
+.info div{
+  margin: 5% 20%
+}
+.info button{
+  color:white;
+  background-color: hsl(180, 3%, 16%);
+  border-radius: 100px;
+  border:none;
+  padding:15px 32px;
+  text-align: center;
+  font-size: 20px;
+  margin: 10% 35%;
+  display: flex;
+  align-items: center;
+}
+.last{
+display: flex;
+flex-direction:row;
+  background-color: hsl(180, 3%, 16%);
+width:100%;
+margin: 0;
+color: white;
+
+}
+.last div{
+  background-color: hsl(180, 3%, 16%);
+
+}
+
+.last ul{
+  list-style: none;
+  background-color: hsl(180, 3%, 16%);
+
 }

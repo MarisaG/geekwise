@@ -1,0 +1,149 @@
+@import 'https://fonts.googleapis.com/css?family=Poppins:500';
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css";
+
+body{
+margin:0;
+font-family: 'Poppins', sans-serif;
+}
+nav{
+  display: flex;
+  padding: 10px 20px;
+  justify-content: space-between;
+}
+nav ul{
+  display: inline-flex;
+  align-items: center;
+  list-style: none;
+font-size:20px;
+}
+nav li{
+  padding:5px
+}
+nav *{
+  margin: 10;
+  padding: 0
+}
+header img{
+width: 100%
+}
+.ew{
+  display:flex;
+background-color:hsl(195, 9%, 91%)
+}
+article div{
+  display: inline-flex;
+  flex-direction:column;
+  align-items:center;
+  margin: 5% 5%;
+  font-size: 20px
+
+}
+.ew ul {
+  list-style: none;
+
+}
+.ew a{
+  text-decoration: none;
+  color:hsl(254, 1%, 43%);
+
+}
+.ew li{
+  justify-content: space-between;
+  padding: 4px;
+}
+article button{
+  display: inline-block;
+  background-color: hsl(3, 85%, 63%);
+  padding:15px 32px;
+  border: none;
+  text-align: center;
+  font-size:18px;
+  color:white;
+
+}
+aside{
+  margin-left: 10%
+}
+aside h1{
+padding-left: 60px
+}
+aside p{
+  padding-top: 20%;
+  text-align: center;
+  margin: 5px 20px
+}
+aside button{
+  display: inline-block;
+  background-color: hsl(3, 85%, 63%);
+  padding:15px 32px;
+  border: none;
+  text-align: center;
+  font-size:18px;
+  color:white;
+margin-left: 30%
+}
+section{
+  display: flex;
+  width: 100%;
+  height:400px;
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 50px
+}
+section div{
+height:350px;
+display:flex;
+flex-direction: column;
+align-items: center;
+padding-top: 80px;
+text-align:center;
+color: white
+}
+
+section div:nth-of-type(1) {
+   background-color:hsl(2, 84%, 76%);
+   padding-right: 20px;
+
+ }
+section div:nth-of-type(2){
+  background-color: hsl(183, 52%, 61%);
+  padding-left: 20px;
+  padding-right: 20px
+
+}
+section div:nth-of-type(3){
+  background-color:hsl(100, 48%, 61%);
+padding-left: 20px;
+padding-right: 20px
+}
+footer{
+  background-color: hsl(195, 9%, 91%);
+  padding-top: 40px;
+  margin-top: 70px
+}
+footer h1{
+  font-size: 50px
+}
+.end{
+  background-color: hsl(54, 55%, 60%);
+  height: 200px;
+  width: 100%;
+  align-items: center;
+}
+.end p{
+  display: flex;
+  justify-content: center;
+  padding-top: 80px
+}
+.end div{
+  display: flex;
+  justify-content: center;
+  color: white;
+
+}
+.end i{
+  padding: 10px;
+  background-color: hsl(45, 65%, 49%);
+  margin-left:5px;
+  font-size: 20px
+}
