@@ -6,34 +6,39 @@ margin:0
 }
 header{
 background-image: url(../img/home-slider-1-slide-2.jpg);
-background-size: cover;
+background-size:cover;
 height: 550px;
-width: 100%
+width: 100%;
+padding-top: 80px
 }
-header ul{
-  padding:0;
+nav ul{
+  padding:10px;
   margin:0;
   list-style: none;
+  float: right;
+font-size:12px
 }
 
-header img{
-  width:20%;
-  padding-top: 10px;
-  margin-right:20px;
+nav img{
+height: 25px;
+padding-top: 10px;
+padding-left: 20px
 
 }
-header nav{
-  background-color: transparent;
-  margin-bottom: 23px;
-  width:80%;
-  margin-left:20px
+ nav{
+  background-color:hsla(0, 2%, 7%, 0.88);
+  width:100%;
+position: fixed;
+top:0;
+width:100%
+
 }
-header li{
+nav li{
   display: inline-block;
   padding: 10px;
   float: right;
 }
-header a{
+nav a{
   text-decoration: none;
   color: white;
   float: left;
@@ -55,21 +60,22 @@ font-size: 150px
 }
 .news{
   display: flex;
-  padding: 40px 20px;
-  text-align: center;
-align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0% 10%;
+  padding-top: 110px;
+  padding-bottom:0;
+
+
 }
 .news img{
-  height: 45%;
-  padding-left:20px;
+
 
 }
 .news div{
-font-size: 10px;
-text-align: left;
-align-content: center;
-margin-left: 0px
+
+
 }
 .news p{
-margin-right: 88px
+
 }
