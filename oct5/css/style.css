@@ -52,10 +52,7 @@ section{
   -moz-column-count:3;
   column-count: 3;
   column-width:20vw;
-
 }
-
-
 img{
   float: left;
   border-radius: 100px;
