@@ -124,5 +124,28 @@ transform: scale(1);
 div a{
  color:white;
  text-decoration: none;
- 
+
+}
+.news{
+  display: flex;
+margin:0 10%;
+justify-content: center;
+height:90vh
+
+}
+.crnew{
+  margin:0 10%
+}
+
+h1{
+  font-size: 40px
+}
+.news div{
+padding: 10px
+
+}
+.news p{
+  text-align: left;
+  margin-right: 5%;
+
 }
