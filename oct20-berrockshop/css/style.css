@@ -1,0 +1,147 @@
+@font-face {
+  font-family: 'BrushScript';
+  src: url('http://matthewhigley.com/fonts/BrushScriptStd.eot');
+  src: url('http://matthewhigley.com/fonts/BrushScriptStd.eot?#iefix') format('embedded-opentype'),
+       url('http://matthewhigley.com/fonts/BrushScriptStd.woff') format('woff'),
+       url('http://matthewhigley.com/fonts/BrushScriptStd.ttf')  format('truetype'),
+       url('http://matthewhigley.com/fonts/BrushScriptStd.svg#eb21f6604ba28d5573abad1c01255830') format('svg');
+  font-style:   normal;
+  font-weight:  400;
+}
+@font-face {
+  font-family: 'Fraktur';
+  src: url('http://matthewhigley.com/fonts/Fraktur-BT-Regular.eot');
+  src: url('http://matthewhigley.com/fonts/Fraktur-BT-Regular.eot?#iefix') format('embedded-opentype'),
+       url('http://matthewhigley.com/fonts/Fraktur-BT-Regular.woff') format('woff'),
+       url('http://matthewhigley.com/fonts/Fraktur-BT-Regular.ttf')  format('truetype'),
+       url('http://matthewhigley.com/fonts/Fraktur-BT-Regular.svg#f78369fb7f540f355d128fc492e4218d') format('svg');
+  font-style:   normal;
+  font-weight:  400;
+}
+
+body{
+
+  padding:5vh 25vh;
+background-color: hsl(3, 87%, 22%)
+
+}
+body h2,h3{
+    font-family: 'BrushScript';
+}
+header div{
+  display: flex;
+font-family: 'Fraktur';
+}
+header img{
+  width:100%;
+
+}
+header nav{
+display: flex;
+justify-content: space-between;
+  font-family: 'BrushScript';
+width: inherit;
+  background-color: hsl(60,100%,97%)
+}
+header nav ul{
+display: inline-flex;
+list-style: none;
+width:75%;
+border: dotted;
+border-right: solid hsl(60,100%,97%);
+border-left: solid hsl(60,100%,97%);
+margin: 20px 110px
+
+}
+
+nav ul li{
+padding: 5%;
+font-size: 25px;
+color:white;
+}
+
+nav ul a{
+  text-decoration: none;
+  color: inherit;
+
+}
+hr{
+padding: 0
+}
+section{
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  background-color: hsl(60,100%,97%)
+}
+section p{
+  font-size: 17px
+}
+article{
+  width:60%;
+  margin-right: 100px;
+  margin-left: 110px
+}
+article div{
+  padding-bottom: 60px
+}
+.bread img{
+  float: right;
+
+}
+
+aside{
+  width:40%;
+  margin-left: 80px
+}
+.days{
+  float:left;
+  margin-left: 35px;
+  padding-top:-60px
+}
+
+aside .time, .location, .daily,.locations,.fone{
+border:3px solid grey;
+border-radius: 10%;
+margin-top: 50px;
+height:180px;
+width:320px;
+text-align: center;
+position: relative;
+}
+.locations h2{
+position: absolute;
+top:-40px;
+left:20px;
+background-color: hsl(60,100%,97%)
+
+}
+.daily div{
+  padding-top: 40px
+}
+.daily h2{
+position: absolute;
+top:-40px;
+left:20px;
+background-color: hsl(60,100%,97%)
+
+}.fone h2{
+position: absolute;
+top:-40px;
+left:20px;
+background-color: hsl(60,100%,97%)
+
+}
+.time div{
+  padding-top: 25px
+}
+.time h2{
+position: absolute;
+top:-40px;
+left:20px;
+background-color: hsl(60,100%,97%)
+
+}
+aside p{
+  font-size: 15px
+}

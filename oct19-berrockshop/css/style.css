@@ -1,0 +1,68 @@
+
+
+body{
+
+  padding:5vh 25vh;
+
+}
+
+header div{
+  display: flex;
+}
+header img{
+  width:100%
+}
+header nav{
+display: flex;
+justify-content: space-between;
+
+
+}
+header nav ul{
+display: inline-flex;
+list-style: none;
+
+
+}
+nav ul li{
+padding:15%;
+
+}
+
+nav ul a{
+  text-decoration: none;
+  color: inherit;
+
+}
+hr{
+
+}
+section{
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+section p{
+  font-size: 17px
+}
+article{
+  width:60%;
+  margin-right: 100px;
+  margin-left: 110px
+}
+
+aside{
+  width:40%;
+  margin-left: 80px
+}
+aside .time, .location, .daily,.locations,.fone{
+border:2px solid grey;
+border-radius: 10%;
+margin-top: 50px;
+height:180px;
+width:320px;
+text-align: center;
+}
+aside p{
+  font-size: 15px
+}
