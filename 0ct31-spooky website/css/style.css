@@ -39,7 +39,8 @@ nav li:hover{
 
 nav ul{
   display: inline-flex;
-margin-top: 20px
+margin-top: 20px;
+
 }
 
 nav img{
@@ -58,6 +59,7 @@ article{
   padding-left: 20px;
 
 
+
 }
 article img{
   float: left;
@@ -65,7 +67,7 @@ article img{
   margin-bottom: 40px
 }
 article div{
-  font-size:15px;
+  font-size:17px;
 
 }
 aside{
@@ -77,8 +79,11 @@ aside{
   background-size: cover;
   padding-left: 60px
 }
+aside h2{
+  margin-bottom: 0
+}
 aside ul{
-  list-style: none;
+  list-style:
 }
 aside li{
   margin-bottom: 5px
@@ -96,18 +101,19 @@ aside img:nth-of-type(1){
 }
 aside img:nth-of-type(2){
   margin-left: 100px;
-  margin-top: 30px
+  margin-top: 35px;
+
 }
 footer{
   background-color: #2A0A04;
   margin: 0 -23vw;
-  height:auto
+  height:auto;
 }
 .footer{
   display: flex;
   background-color:#2A0A04;
-  margin: 0 -23vw;
-  height:auto
+  margin: 0 -5vw;
+  height:auto;
 }
 .footer div{
   width:200px;
@@ -116,6 +122,10 @@ flex-direction: column;
 align-items: center;
 margin-left: 210px
 
+}
+.pumkin{
+  margin-bottom: -53px;
+  margin-left: 55%
 }
 .links{
   display: flex;
@@ -149,7 +159,15 @@ footer small{
   margin-left: 70%;
   margin-top: -5px
 }
-#webs p{
+#costumes article div p{
+  font-size:17px
+}
+#webs article div{
+  border-bottom: 1px dashed grey;
+  text-align:left
+}
+
+.lines div{
   color:#677970;
 }
 .lines p:nth-of-type(1){
@@ -175,4 +193,8 @@ float:left
 #webs aside p{
   color: inherit;
   text-align: center;
+}
+.lines p{
+  display: flex;
+  flex-wrap: nowrap;
 }
