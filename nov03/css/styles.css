@@ -1,0 +1,84 @@
+html{
+  background-image: url(../img/headbg.jpg),url(../img/bobybg.jpg);
+  background-position: top center;
+  background-repeat: no-repeat, repeat-x;
+  background-color: black
+
+
+
+}
+body{
+color:white
+}
+.container{
+  width:800px;
+  margin: auto;
+
+}
+
+section{
+width:64%;
+float:left;
+background-image: url(../img/leftbg.jpg);
+background-size: cover;
+
+}
+
+aside{
+  width:34%;
+float: right;
+background-image: url(../img/rightbg.png);
+background-size: cover;
+}
+
+#mega .container{
+display: flex;
+  background-color: hsl(9,83%,9%);
+  width:100vw;
+  justify-content: flex-end;
+}
+
+#mega .container div{
+text-align:left;
+width:calc( 100% / 3.9);
+margin-right:-40px;
+margin-left: 70px
+
+}
+
+#mega .container div p{
+  margin-right: 90px
+}
+
+@media screen and (max-width:450px){
+  header{
+    width:100%
+  }
+  section{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    align-items: center;
+
+  }
+  aside{
+  display:none;
+  }
+  .container{
+    display: flex;
+    flex-direction:column;
+    width:auto;
+
+  }
+  #mega .container div{
+    display: flex;
+    flex-direction: column;
+    width:100%
+  }
+}
+@media screen and (max-width:799px){
+  #mega .container div{
+    width:35%;
+    margin-bottom:60px
+  }
+}
