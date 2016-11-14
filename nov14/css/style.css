@@ -1,0 +1,20 @@
+@import
+"https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+header{
+
+
+}
+
+header div{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+header nav{
+  display: inline-block;
+
+}
+header nav ul{
+  display: inline-flex;
+}
