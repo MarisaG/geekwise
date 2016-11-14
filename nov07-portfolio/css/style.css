@@ -1,0 +1,40 @@
+@import compass;
+
+@import url(http://weloveiconfonts.com/api/?family=typicons);
+
+body{
+  margin: 0;
+}
+
+header{
+  display: flex;
+  background-image:url("https://images.unsplash.com/photo-1421930535025-d2af27c14065?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=6b7f9f0c76531f81cd173512fe630b68");
+  background-position: center;
+  background-size: cover;
+  height:755px;
+  width:100%;
+  float:left;
+}
+header h1{
+  color:white;
+  font-size: 350%;
+align-self: center;
+margin: auto;
+}
+
+
+.bio{
+max-width: 300px;
+border: 2px solid black;
+margin: 85px 50px
+}
+.bio img{
+margin-left: 108px;
+border-radius: 50%
+}
+.cover{
+text-align: center;
+}
+.bio p{
+
+}
