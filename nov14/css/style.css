@@ -1,20 +1,136 @@
 @import
 "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 
-header{
+body{
+  margin: 0;
 
+}
 
+header {
+margin-top:55px
 }
 
 header div{
-display: flex;
-flex-direction: column;
-align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header h1{
+  font-size: 350%
+}
+
+header h5{
+  margin-top: -40px
 }
 header nav{
-  display: inline-block;
+display: flex;
+justify-content: space-between;
+padding: 10px 20px;
+margin-top: 40px;
+margin-bottom: 80px
+}
+nav ul{
+  display: inline-flex;
+  margin: auto;
+  list-style: none;
+}
+nav ul li{
+  padding:20px
+}
+nav ul a{
+  text-decoration: none;
+ color:black;
+ font-size: 20px
+}
+nav ul li:nth-child(1){
+border: 1px solid black;
 
 }
-header nav ul{
-  display: inline-flex;
+
+header i{
+  background:  #6C2A6A;
+  width:30px;
+  height:30px;
+  border-radius: 50%;
+  color:white;
+  vertical-align: middle;
+  padding:30px;
+}
+
+.purple{
+  color:white;
+  background: #6C2A6A;
+  text-align: center;
+  padding: 120px 200px
+}
+.purple h1{
+  font-size: 50px
+}
+.no{
+  text-align: center;
+  margin-bottom: 80px
+}
+.no h1{
+  font-size: 50px
+}
+.no h2{
+margin-top: -40px
+}
+
+.white{
+  display: flex;
+  text-align: center;
+  margin: 10px 80px;
+  margin-bottom: 90px
+}
+.white p{
+  margin: 0 40px 40px 40px
+}
+
+.white button{
+  background: #6C2A6A;
+  color:white;
+  padding: 15px 25px;
+  border-radius: 8%
+}
+
+.black{
+  text-align: center;
+  color:white;
+  background: #1B1B1B;
+  padding-top: 100px
+}
+
+.black h1{
+  font-size: 50px
+}
+
+.black h2{
+  margin-top: -40px
+}
+
+.black i{
+  font-size: 20px;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 40px;
+  background:  #6C2A6A;
+  width:5px;
+  height:5px;
+  border-radius: 50%;
+  color:white;
+  vertical-align: middle;
+  padding:30px;
+  display: inline-block;
+}
+
+.LOL{
+  margin-top: 100px;
+  padding-bottom: 120px;
+}
+
+.LOL p{
+  border-top: 1px solid grey;
+margin: 5px 100px;
+padding-top: 50px
 }
