@@ -1,0 +1,42 @@
+
+body{
+  margin:0
+}
+
+header{
+  background-image: url("https://unsplash.it/800/800?image=49");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;;
+  height:300px;
+  width:100%;
+
+}
+
+header div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+header h1{
+font-size: 80px;
+margin-top: -15px
+}
+
+header h3{
+  margin-top:-60px;
+}
+
+.explore{
+  height:100px;
+  width:50%;
+  float: left;
+  margin: auto;
+}
+
+.explore img{
+  float: right;
+  
+}

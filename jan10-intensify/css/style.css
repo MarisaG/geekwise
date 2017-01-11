@@ -1,0 +1,118 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Pacifico');
+
+body{
+margin: 0;
+font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+display: flex;
+justify-content: space-between;
+padding:20px;
+align-items: center;
+width:100%;
+background-color: white;
+box-sizing: border-box;
+position: fixed;
+}
+
+nav div{
+  position: absolute;
+  top:0;
+  left:-250px;
+  width:250px;
+  height:100vh;
+  transition:all 250ms ease-out;
+  background-color: #25A2C3;
+
+}
+
+nav div.open{
+left:0px
+}
+
+nav div i {
+  position: absolute;
+  right: 18px;
+  top:16px
+
+}
+
+nav ul{
+padding:20px;
+list-style: none;
+}
+
+nav li{
+  border-bottom: 1px solid grey
+}
+
+nav a{
+padding:15px 0;
+display: inline-block;
+color:white;
+font-weight: 100;
+}
+
+nav h1{
+  font-family: 'Pacifico', cursive;
+  color:#F6755E;
+  font-size: 33px;
+  font-weight: lighter;
+  margin: 0
+}
+
+.fa-bars{
+font-size: 30px
+}
+
+.fa-bars:hover{
+
+}
+
+#hero{
+  background-image: url("../img/banner.jpg");
+  height:700px;
+  width:100%;
+  margin:0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#hero div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 200px
+}
+
+#hero h2{
+  font-size: 40px;
+  color:#25A2C3
+}
+
+#hero p{
+margin-top: -10px;
+padding: 0 400px;
+text-align: center;
+}
+
+.btn{
+  border:solid 1px lightgrey;
+  padding:11px 18px;
+  text-decoration: none;
+  color:grey;
+  font-weight: bold;
+  margin:0
+}
+
+.btn-cta{
+  background-color: #F6755E;
+  color:white;
+  padding:13px 50px;
+  border-radius: 5px
+}
