@@ -1,0 +1,75 @@
+body{
+margin: 0
+}
+
+nav{
+  background-color: #ddd;
+  padding:20px
+}
+
+nav ul{
+  padding:0;
+  margin:0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+main{
+  text-align: center;
+}
+
+/*img{
+width:35%
+}*/
+
+footer{
+  background-color: #303030;
+  color:white;
+  padding:20px
+}
+
+img{
+  width:250px;
+  height:250px;
+  border: 12px solid grey;
+  border-radius: 50%;
+}
+main{
+  display: flex;
+  justify-content: center;
+}
+main div:last-child{
+  width: 810px;
+  padding-left: 20px
+
+}
+
+@media print{
+nav,footer{
+  display: none
+}
+}
+
+@media screen and (min-width:1200px){
+  body{
+    background: pink;
+  }
+}
+
+@media screen and (max-width:992px){
+  body{
+    background: yellow
+  }
+
+}
+@media screen and (max-width:768px){
+  body{
+    background: lightgreen
+  }
+}
+@media screen and (max-width:500px){
+  body{
+    background-color: lightblue
+  }
+}
