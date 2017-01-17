@@ -17,6 +17,7 @@ nav ul{
 
 main{
   text-align: center;
+  color:purple
 }
 
 /*img{
@@ -53,23 +54,23 @@ nav,footer{
 
 @media screen and (min-width:1200px){
   body{
-    background: pink;
+    background: rgb(217, 62, 62);
   }
 }
 
 @media screen and (max-width:992px){
   body{
-    background: yellow
+    background: rgb(235, 143, 36)
   }
 
 }
 @media screen and (max-width:768px){
   body{
-    background: lightgreen
+    background:rgb(221, 228, 83);
   }
 }
 @media screen and (max-width:500px){
   body{
-    background-color: lightblue
+    background-color: lightgreen
   }
 }

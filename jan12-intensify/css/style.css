@@ -265,11 +265,12 @@ padding-top: 5px
 display: flex;
 align-items: center;
 text-align: center;
+
 }
 
 .hand img{
-  height:28vw;
-  width:28vh;
+  height:50%;
+  width:50%;
   align-self: center;
 }
 
@@ -292,6 +293,28 @@ margin: 10% 0
 .cam div{
   width:40%;
   margin: 5px
+}
+
+nav div{
+  position: absolute;
+  top:0;
+  left:-250px;
+  width:250px;
+  height:100vh;
+  transition:all 250ms ease-out;
+  background-color: #25A2C3;
+
+}
+
+nav div.open{
+left:0px
+}
+
+nav div i {
+  position: absolute;
+  right: 18px;
+  top:16px
+
 }
 
 }

@@ -1,0 +1,56 @@
+body{
+  margin: 0;
+  padding: 0
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+nav{
+  display: flex;
+margin: 20px 0;
+
+}
+form input{
+  width:500px;
+  height:20px
+}
+#sad{
+width:40%
+
+}
+
+#cry{
+width:45%
+}
+
+#cry li{
+display: flex;
+padding: 10px 5px;
+  list-style: none;
+
+}
+
+#cry p{
+padding-left: 10px
+}
+
+aside{
+display:flex;
+flex-direction: column;
+width: 50%;
+align-items:flex-end;
+margin-top: -730px
+}
+aside li{
+  list-style: none;
+  display: flex;
+  padding: 10px 5px;
+
+}
+
+aside h2{
+  padding-left: 2px
+}
