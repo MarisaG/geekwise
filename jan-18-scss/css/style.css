@@ -1,0 +1,31 @@
+body {
+  background-color: lightblue;
+  color: purple;
+  border: 1px solid yellow; }
+
+div {
+  background-color: #fafafa;
+  border-radius: 10px;
+  padding: 25px; }
+  div h1 {
+    font-family: cursive;
+    font-size: 40px;
+    color: #b0e9a7; }
+  div button {
+    background-color: #b946b9;
+    border-color: #d590d5 #d590d5 #6f2a6f #6f2a6f;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px 10px; }
+  div li:nth-of-type(1) {
+    background-color: red; }
+  div li:nth-of-type(2) {
+    background-color: #ff5500; }
+  div li:nth-of-type(3) {
+    background-color: cyan; }
+  div li:nth-of-type(4) {
+    background-color: #2bff00; }
+  div li:nth-of-type(5) {
+    background-color: #00aaff; }
+  div li:nth-of-type(6) {
+    background-color: #aa00ff; }

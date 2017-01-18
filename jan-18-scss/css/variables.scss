@@ -1,0 +1,31 @@
+$key-color:lightblue;
+$secondary-color:purple;
+$tertiary-color:yellow;
+
+//headline syles
+$h1-style:cursive;
+$h1-color:rgb(176, 233, 167);
+$h1-size:40px;
+
+//button styles
+$btn-color: hsl(300, 45%, 50%);
+$btn-lite: hsl(300, 45%, 70%);
+$btn-dark: hsl(300, 45%, 30%);
+
+//  Color Functions
+
+// $li-color:red;
+// $li-orange:adjust-hue(red,20);
+// $li-yellow:invert(red);
+// $li-green:adjust-hue(red,110);
+// $li-blue:adjust-hue(red,200);
+// $li-purple:adjust-hue(red,280)
+
+$base: hsl(0, 100%, 50%);
+$secondary:adjust-hue($base, 40deg);
+$tertiary:adjust-hue($base, 60deg);
+$quaternary:adjust-hue($base, 90deg);
+$quinary:adjust-hue($base, 200deg);
+$senary:adjust-hue($base, 290deg);
+
+$colors:$base $secondary $tertiary $quaternary $quinary $senary
