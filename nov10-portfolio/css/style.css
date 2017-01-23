@@ -1,6 +1,7 @@
 @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 @import url('https://fonts.googleapis.com/css?family=Condiment');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed|Yanone+Kaffeesatz');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 body{
 margin: 0;
 background-color:#E6D8F1;
@@ -32,6 +33,11 @@ color:white;
 margin: auto;
 font-size: 600%;
 font-family: 'Condiment', cursive;
+}
+
+h2{
+font-family: font-family: 'Raleway', sans-serif;
+font-weight: 300
 }
 header div{
   display: inline-flex;
