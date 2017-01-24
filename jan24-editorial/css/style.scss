@@ -1,0 +1,33 @@
+@import '_import.scss';
+
+body{
+padding:0 70px
+}
+
+header{
+  padding-top: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 6px solid $color;
+}
+
+header h1{
+  font-size: 17px
+}
+
+header i{
+  padding: 5px;
+  font-size: 20px
+}
+
+.tattoo{
+  display: flex;
+  align-items:center;
+}
+
+.tattoo
+.arm{
+  width:100%;
+  padding-top: 10px
+}
