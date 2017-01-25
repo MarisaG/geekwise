@@ -1,0 +1,91 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab");
+body {
+  padding: 0 70px;
+  font-family: 'Open Sans', sans-serif; }
+
+h1, h2, h3 {
+  font-family: "Roboto Slab", serif; }
+
+p {
+  color: #7F888F; }
+
+header {
+  padding-top: 45px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 6px solid #8460c7; }
+
+header h1 {
+  font-size: 17px; }
+
+header i {
+  padding: 5px;
+  font-size: 20px; }
+
+.tattoo {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 2px solid #bbc0c3;
+  padding-bottom: 65px; }
+
+.tattoo div {
+  padding-right: 30px; }
+
+.tattoo div h2 {
+  font-size: 50px; }
+
+.tattoo h3 {
+  font-family: 'Open Sans', sans-serif;
+  color: #7F888F;
+  margin-top: -25px; }
+
+.arm {
+  width: 100%;
+  padding-top: 65px; }
+
+.arm img {
+  width: 100%;
+  height: 60%;
+  border-radius: 2%; }
+
+.tattoo a {
+  color: #8460c7;
+  text-decoration: none;
+  border: 2px solid #8460c7;
+  padding: 12px 24px;
+  border-radius: 5%; }
+
+.tattoo a:hover {
+  background: rgba(128, 94, 197, 0.12); }
+
+.tattoo p {
+  padding-bottom: 25px;
+  line-height: 1.5;
+  padding-right: 40px; }
+
+.icons article {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.icons h2 {
+  border-bottom: 3px solid #8460c7;
+  width: 10.2%;
+  padding-bottom: 10px; }
+
+.pics {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
