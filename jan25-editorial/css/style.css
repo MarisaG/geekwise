@@ -88,4 +88,25 @@ header i {
 .pics {
   display: -webkit-flex;
   display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.help {
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex; }
+
+.pics article {
+  width: 90%;
+  padding-bottom: 60px; }
+
+.pics article div {
+  width: 645px; }
+
+.pics img {
+  width: 100%; }
+
+.one {
+  padding-right: 5%; }
