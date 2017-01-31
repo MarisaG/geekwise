@@ -23,7 +23,7 @@ nav div{
   top:0;
   left:-250px;
   width:250px;
-  height:100va;
+  height:100vh;
   transition:all 250ms ease-out;
   background-color: #25A2C3;
 
