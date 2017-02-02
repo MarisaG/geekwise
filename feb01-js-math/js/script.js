@@ -16,8 +16,8 @@ console.log(typeof myObjectVar);
 console.log(typeof myArrayVar);
 
 
-var numUno = 7;
-var numTwo = 4;
+var numUno = 10;
+var numTwo = 20;
 var equalAdded = (numUno + numTwo);
 var equalSub = (numTwo - numUno);
 var equalDiv = (numTwo / numUno);
@@ -29,3 +29,6 @@ console.log(equalSub);
 console.log(equalDiv);
 console.log(equalMult);
 console.log(equalModulus);
+
+
+alert("I'm hungry")
