@@ -28,11 +28,11 @@ var posFruit = fruits.indexOf("plum");
 //Splice- remove and item by idex number
 var remFruit = fruits.splice(1,1);
  //                          ^  ^
-                        // index  number removed
+                      // index  number removed
 
 // console.log(remFruit);
 // console.log(fruits);
-
+|
 //Slice- copies an array
 var copyFruit = fruits.slice(2,3);
 //                           ^ ^
