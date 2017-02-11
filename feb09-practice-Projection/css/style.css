@@ -1,0 +1,48 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body{
+  margin:0;
+}
+
+header{
+  background-image: url(../img/banner.jpg);
+  height: 700px
+}
+
+nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 40px 150px 40px 150px;
+border-bottom: 1px solid white;
+}
+
+nav ul{
+  display: flex;
+}
+
+nav li{
+  list-style: none;
+}
+
+nav li a{
+  text-decoration: none;
+padding: 0 20px
+}
+
+.welcome{
+  display: flex;
+align-items: center;
+flex-direction: column;
+color:white
+}
+
+.iconsB{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.iconsB div{
+  padding: 0 20px
+}
