@@ -1,5 +1,5 @@
-var str = "MArISa";
-var modStr = str.substr(1,4);
+// var str = "MArISa";
+// var modStr = str.substr(1,4);
 // var userName = prompt('whats your name').trim();
 // console.log(userName);
 
@@ -41,7 +41,7 @@ var voidBtn = document.getElementById('void');
 
 extBtn.addEventListener('click', function(){
   var userName = prompt('what is your name');
-content.textContent = 'Marisa';
+content.textContent = userName;
 });
 
 voidBtn.addEventListener('click',  function(){
@@ -60,8 +60,8 @@ function changeColor(){
   // var addOne = roundHue + 1;
   // console.log(addOne);
   //
+  var rand = Math.floor(Math.random() * 360 ) + 1;
   document.body.style.backgroundColor = 'hsl('+ rand +', 50%, 50%)';
- var rand = Math.floor(Math.random() * 360) + 1;
-  console.log(randNum);
+
   // document.body.style.backgroundColor = 'black';
 }
