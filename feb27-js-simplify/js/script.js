@@ -45,6 +45,8 @@ return arr;
 
 }
 
+//My stuff bad stuff
+
 function capitallizeFirstLetter(formInputs){
   return arr.charAt(0).toUpperCase() + arr.string(1)
 }
