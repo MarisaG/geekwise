@@ -73,7 +73,7 @@ font-size: 300%;
 padding-left: 11%;
 padding-right: 50%;
 background-image:url(img-root/seeThrough.png);
-background-size:contain;
+background-size:auto;
 background-position:center;
 width:80%;
 margin: 30px 0;
@@ -115,10 +115,11 @@ section{
 }
 
 .bio{
-  border:5px solid rgb(154, 145, 159);
-  max-width: 300px;
-  margin-left: 90px;
-  box-shadow: 10px 0px 5px #888888;
+margin: auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-right: 20px;
 
 }
 .cover{
@@ -128,9 +129,8 @@ align-items: center;
 }
 
 .bio img{
-  margin-left: 33%;
-  border-radius: 50%;
-  padding-top: 5px
+width:15%;
+padding-left: 43%
 }
 
 
@@ -139,11 +139,7 @@ align-items: center;
 }
 
 .bio2{
-  width:60%;
-  margin-left: 60px;
-  border:5px solid grey;
-  margin-right: 50px;
-  box-shadow: 10px 0px 5px #888888
+
 }
 .photos{
   flex-wrap:wrap;
@@ -170,15 +166,14 @@ font-size: 16px;
 width: 75%
 }
 
-#win div{
-  margin: auto;
-  border:5px solid grey;
-  padding:40px 120px;
-  /*background-color:rgb(237, 228, 242);*/
+#win{
   background:#F0F0F0;
-  box-shadow: 10px 0px 5px #888888
 }
 
+
+#win div{
+padding:45px 80px
+}
 
 }
 #photos{
@@ -208,7 +203,7 @@ padding:10px
 
 #bottom{
   /*background-color: rgb(65, 20, 120);*/
-  background:gray;
+  background:grey;
   margin: 0;
   margin-top: -25px;
   padding: 0;
