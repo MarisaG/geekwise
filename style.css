@@ -62,6 +62,11 @@ header a{
 margin-top: -43%;
 color:transparent
 }
+
+nav{
+  
+}
+
 .help{
   display:flex;
   justify-content: flex-end;

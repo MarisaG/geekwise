@@ -1,15 +1,11 @@
 var nav = document.querySelector('nav'),
-    nav1stLvl = document.querySelectorAll('nav > ul > li');
+    logo = document.getElementById('logo');
 
-
-nav1stLvl.forEach(function(e,i){
-
-e.addEventListener('mouseover', function(){
-  this.classList.add('navBar');
-});
-
-e.addEventListener('mouseover', function(){
-  this.classList.remove('navBar')
+nav.addEventListener('mouseover',function(){
+  console.log(nav);
+  nav.classList.remove('navBar')
 })
 
+nav.addEventListener('mouseout', function(){
+  nav.classList.add('navBar')
 })

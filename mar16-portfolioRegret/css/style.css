@@ -1,0 +1,48 @@
+body{
+  margin: 0;
+  padding:0
+}
+
+nav.navBar{
+  background-color: inherit;
+
+
+}
+
+nav.navBar ul{
+  position:relative;
+  top:-40px;
+}
+
+nav{
+display: flex;
+justify-content: space-between;
+background: pink;
+transition: all 550ms ease-in;
+position: fixed;
+width:100%;
+height:auto;
+
+
+}
+
+nav ul{
+  display: inline-flex;
+  align-items: center;
+  list-style: none;
+  position:relative;
+  top:3px;
+  transition: all 550ms ease-in;
+
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+  padding:0px 10px
+}
+
+header{
+  background-image: url(http://unsplash.it/800/1000);
+  height:900px;
+}
